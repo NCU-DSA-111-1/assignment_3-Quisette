@@ -169,3 +169,4 @@ void update_freq(int symbol)
 		cum[symbol] += 1;
 	}
 }
+

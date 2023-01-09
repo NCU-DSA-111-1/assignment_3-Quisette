@@ -1,0 +1,282 @@
+---------Arithmetic Encoding-----------
+Arith Attempt #1
+
+Arith encoding...
+time cost: 0.000138
+Arith decoding...
+time cost: 0.000402
+-----------------------
+Arith Attempt #2
+
+Arith encoding...
+time cost: 0.000144
+Arith decoding...
+time cost: 0.000134
+-----------------------
+Arith Attempt #3
+
+Arith encoding...
+time cost: 0.000296
+Arith decoding...
+time cost: 0.000120
+-----------------------
+Arith Attempt #4
+
+Arith encoding...
+time cost: 0.000110
+Arith decoding...
+time cost: 0.000274
+-----------------------
+Arith Attempt #5
+
+Arith encoding...
+time cost: 0.000109
+Arith decoding...
+time cost: 0.000167
+-----------------------
+Arith Attempt #6
+
+Arith encoding...
+time cost: 0.000117
+Arith decoding...
+time cost: 0.000137
+-----------------------
+Arith Attempt #7
+
+Arith encoding...
+time cost: 0.000233
+Arith decoding...
+time cost: 0.000333
+-----------------------
+Arith Attempt #8
+
+Arith encoding...
+time cost: 0.000111
+Arith decoding...
+time cost: 0.000278
+-----------------------
+Arith Attempt #9
+
+Arith encoding...
+time cost: 0.000237
+Arith decoding...
+time cost: 0.000140
+-----------------------
+Arith Attempt #10
+
+Arith encoding...
+time cost: 0.000241
+Arith decoding...
+time cost: 0.000283
+-----------------------
+Arith Attempt #11
+
+Arith encoding...
+time cost: 0.000228
+Arith decoding...
+time cost: 0.000145
+-----------------------
+Arith Attempt #12
+
+Arith encoding...
+time cost: 0.000111
+Arith decoding...
+time cost: 0.000278
+-----------------------
+Arith Attempt #13
+
+Arith encoding...
+time cost: 0.000116
+Arith decoding...
+time cost: 0.000298
+-----------------------
+Arith Attempt #14
+
+Arith encoding...
+time cost: 0.000107
+Arith decoding...
+time cost: 0.000286
+-----------------------
+Arith Attempt #15
+
+Arith encoding...
+time cost: 0.000236
+Arith decoding...
+time cost: 0.000288
+-----------------------
+Arith Attempt #16
+
+Arith encoding...
+time cost: 0.000231
+Arith decoding...
+time cost: 0.000114
+-----------------------
+Arith Attempt #17
+
+Arith encoding...
+time cost: 0.000091
+Arith decoding...
+time cost: 0.000107
+-----------------------
+Arith Attempt #18
+
+Arith encoding...
+time cost: 0.000246
+Arith decoding...
+time cost: 0.000104
+-----------------------
+Arith Attempt #19
+
+Arith encoding...
+time cost: 0.000090
+Arith decoding...
+time cost: 0.000131
+-----------------------
+Arith Attempt #20
+
+Arith encoding...
+time cost: 0.000263
+Arith decoding...
+time cost: 0.000268
+-----------------------
+---------Huffmann Encoding-----------
+Huff Attempt #1
+
+Huffmann encoding...
+time cost: 0.000264
+Huffmann decoding...
+time cost: 0.001167
+-----------------------
+Huff Attempt #2
+
+Huffmann encoding...
+time cost: 0.000189
+Huffmann decoding...
+time cost: 0.001261
+-----------------------
+Huff Attempt #3
+
+Huffmann encoding...
+time cost: 0.000257
+Huffmann decoding...
+time cost: 0.001261
+-----------------------
+Huff Attempt #4
+
+Huffmann encoding...
+time cost: 0.000204
+Huffmann decoding...
+time cost: 0.001187
+-----------------------
+Huff Attempt #5
+
+Huffmann encoding...
+time cost: 0.000193
+Huffmann decoding...
+time cost: 0.001190
+-----------------------
+Huff Attempt #6
+
+Huffmann encoding...
+time cost: 0.000250
+Huffmann decoding...
+time cost: 0.001237
+-----------------------
+Huff Attempt #7
+
+Huffmann encoding...
+time cost: 0.000186
+Huffmann decoding...
+time cost: 0.001431
+-----------------------
+Huff Attempt #8
+
+Huffmann encoding...
+time cost: 0.000242
+Huffmann decoding...
+time cost: 0.001448
+-----------------------
+Huff Attempt #9
+
+Huffmann encoding...
+time cost: 0.000412
+Huffmann decoding...
+time cost: 0.001342
+-----------------------
+Huff Attempt #10
+
+Huffmann encoding...
+time cost: 0.000490
+Huffmann decoding...
+time cost: 0.001317
+-----------------------
+Huff Attempt #11
+
+Huffmann encoding...
+time cost: 0.000285
+Huffmann decoding...
+time cost: 0.001266
+-----------------------
+Huff Attempt #12
+
+Huffmann encoding...
+time cost: 0.000287
+Huffmann decoding...
+time cost: 0.001603
+-----------------------
+Huff Attempt #13
+
+Huffmann encoding...
+time cost: 0.000281
+Huffmann decoding...
+time cost: 0.001161
+-----------------------
+Huff Attempt #14
+
+Huffmann encoding...
+time cost: 0.000244
+Huffmann decoding...
+time cost: 0.001496
+-----------------------
+Huff Attempt #15
+
+Huffmann encoding...
+time cost: 0.000294
+Huffmann decoding...
+time cost: 0.001551
+-----------------------
+Huff Attempt #16
+
+Huffmann encoding...
+time cost: 0.000340
+Huffmann decoding...
+time cost: 0.001314
+-----------------------
+Huff Attempt #17
+
+Huffmann encoding...
+time cost: 0.000331
+Huffmann decoding...
+time cost: 0.001679
+-----------------------
+Huff Attempt #18
+
+Huffmann encoding...
+time cost: 0.000295
+Huffmann decoding...
+time cost: 0.001391
+-----------------------
+Huff Attempt #19
+
+Huffmann encoding...
+time cost: 0.000240
+Huffmann decoding...
+time cost: 0.001122
+-----------------------
+Huff Attempt #20
+
+Huffmann encoding...
+time cost: 0.000252
+Huffmann decoding...
+time cost: 0.001237
+-----------------------

@@ -31,7 +31,7 @@ int main(int argc, char** argv)
 			{
 			case 'e':
 
-				printf("start encoding...\n");
+				printf("Arith encoding...\n");
 
 				init_arth(os);
 
@@ -43,16 +43,15 @@ int main(int argc, char** argv)
 				}
 				encode(-1);
 				close_encode();
-
 				finish = clock();
-				
+
 				break;
 			case 'd':
 
-				printf("start decoding...\n");
+				printf("Arith decoding...\n");
 
 				init_arth(is);
-				
+
 				start = clock();
 
 				while((symbol=decode())>=0)
@@ -73,6 +72,6 @@ int main(int argc, char** argv)
 	duration = (double)(finish - start) / CLOCKS_PER_SEC;
 
 	printf("time cost: %f\n", duration);
-   
+
 	return 0;
 }

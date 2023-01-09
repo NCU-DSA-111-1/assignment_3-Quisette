@@ -7,9 +7,11 @@ www.github.com/ludlows
 #include <stdlib.h>
 #include <string.h>
 #include <assert.h>
+#include <time.h>
 
 #include "huff_encode.h"
 #include "huff_decode.h"
+
 
 
 // example about encode
@@ -72,10 +74,10 @@ void encode_example() {
 	free_huff_encode_tree(root);
 }
 
-// example about huffman decode 
+// example about huffman decode
 void decode_example() {
 	puts("\nexamples about huffman decode");
-	
+
 	FILE* f_in = NULL;
 	FILE* f_out = NULL;;
 
@@ -104,10 +106,10 @@ void decode_example() {
 
 void example_encode_decode_ascii_file(){
 	int response = 0;
-	
+
 	response = huff_encode_ascii_file("book.txt", "codebook.txt", "encoded.txt");
 	if(response < 0) exit(-1);
-    
+
 	response = huff_decode_ascii_file("encoded.txt", "codebook.txt", "decoded.txt");
 	if(response < 0) exit(-1);
 
@@ -115,9 +117,11 @@ void example_encode_decode_ascii_file(){
 
 
 int main(int argn, char* argv[]) {
-	//encode_example(); 
+	//encode_example();
 	//decode_example();
 	//example_encode_decode_ascii_file();
+	clock_t start, stop;
+	double duration;
 	const char* usage = "github.com/ludlows\n"\
 	                    "huffman coding for educational purpose.\n"\
 						"encode: $chuff -e filename -b codebook_filename -o encoded_filename\n"\
@@ -143,7 +147,7 @@ int main(int argn, char* argv[]) {
 			        if(i+1 < argn) {
 						strcpy(input_filename_buff, argv[++i]);
 						input_filename_buff[num - 1] = 0;
-					} 
+					}
 					else{
 						printf("%s", usage);exit(1);
 					}
@@ -192,14 +196,23 @@ int main(int argn, char* argv[]) {
 	}
 	int response = 0;
 	if(encoding){
+		printf("Huffmann encoding...\n");
+		start = clock();
 		response = 	huff_encode_ascii_file(input_filename_buff, codebook_filename_buff, output_filename_buff);
+		stop = clock();
 	}else{
+		printf("Huffmann decoding...\n");
+		start = clock();
 		response = 	huff_decode_ascii_file(input_filename_buff, codebook_filename_buff, output_filename_buff);
+		stop = clock();
 	}
     if(response < 0){
 		printf("operation failed.\n");
 		exit(-1);
 	}
+	duration = (double)(stop - start) / CLOCKS_PER_SEC;
+
+	printf("time cost: %f\n", duration);
 
 	//getchar();
 	return 0;

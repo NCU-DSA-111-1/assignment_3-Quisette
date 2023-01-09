@@ -1,12 +1,20 @@
-all: arth huff
+SOURCES := $(wildcard src/*.c)
+# LIBRARY := $(wildcard src/*.c)
+HUFF := $(wildcard lib/chuffman/*.c)
+ARTH := $(wildcard lib/arth/*.c)
 
+
+all: arth huff main crap
 arth: FORCE
 
 FORCE:
-	gcc ./arth/Main.c ./arth/arth.c ./arth/bitstream.c -o ./arth/main.o
+	gcc $(ARTH) -o ./obj/arth.o
 
 huff:
-	gcc ./chuffman/huff_encode.c ./chuffman/huff_decode.c ./chuffman/main.c -o ./chuffman/main.o
+	gcc $(HUFF) -o ./obj/huff.o
 
 crap:
-	gcc ./crapwordgen.c -o crap.o -g
+	gcc ./lib/crapwordgen.c  -g -o ./obj/crapwordgen.o
+
+main:
+	gcc $(SOURCES) -g -o ./obj/main.o
