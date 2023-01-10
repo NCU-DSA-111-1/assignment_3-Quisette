@@ -1,4 +1,4 @@
-# DSA_Assignment_3: Comparisons between Huffman Encoding and Arithmetic Encoding
+# DSA Assignment 3: Comparisons between Huffman Encoding and Arithmetic Encoding
 
 # Execution
 ```bash
